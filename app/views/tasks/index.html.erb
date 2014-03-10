@@ -39,7 +39,9 @@
 		$( "p" ).before( "<h3>Test</h3>" );
 	});
 	$( "#default" ).click(function() {
-		$( "p" ).show(1000).addClass( "selected" );;
+		$( "p" ).show(1000).addClass( "selected" );
+		$('#incomplete_tasks').show(1000);
+		$('#incomplete').show(1000);
 		$( "h3" ).remove();
 	});
 </script>
